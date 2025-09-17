@@ -1,20 +1,11 @@
 import './App.css';
-import {Container, Row, Col} from 'react-bootstrap';
-import Header from './Components/Header/Header';
-import Cards from './Components/Card/Card'
+import Shop from './Components/Shop';
 
 function App() {
   return (
-    <Container>
-
-      <Header></Header>
-
-      <Row>
-        <Col><Cards/></Col>
-        <Col><Cards/></Col>
-      </Row>
-
-    </Container>
+    <>
+      <Shop/>
+    </>
   );
 }
 
