@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import Header from './Components/Header/Header';
@@ -8,11 +7,14 @@ import RighteSide from './Components/RighteSide/RighteSide';
 function App() {
   return (
     <Container>
+
       <Header></Header>
+
       <Row>
         <Col><LeftSide/></Col>
         <Col><RighteSide/></Col>
       </Row>
+
     </Container>
   );
 }
