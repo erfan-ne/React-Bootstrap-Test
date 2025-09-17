@@ -1,7 +1,7 @@
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import Header from './Components/Header/Header';
-import Card from './Components/Card/Card'
+import Cards from './Components/Card/Card'
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Header></Header>
 
       <Row>
-        <Col><Card/></Col>
-        <Col><Card/></Col>
+        <Col><Cards/></Col>
+        <Col><Cards/></Col>
       </Row>
 
     </Container>
