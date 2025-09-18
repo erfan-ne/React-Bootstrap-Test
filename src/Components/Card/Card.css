@@ -1,0 +1,13 @@
+
+
+.card-container{
+    direction: rtl;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price{
+    display: flex;
+    align-items: end;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
